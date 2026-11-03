@@ -42,7 +42,9 @@ flowchart TB
 | [dsx](https://github.com/scottlz0310/dsx) | リポジトリ管理・システム更新・Bitwarden 連携を一元化するクロスプラットフォーム CLI（Go） |
 | [arbor](https://github.com/scottlz0310/arbor) | 複数のローカル git リポジトリを一元管理するデスクトップアプリ（Tauri v2） |
 | [agent-statusline](https://github.com/scottlz0310/agent-statusline) | Claude Code などの CLI エージェント向け高速ステータスライン（Rust） |
+| [clp2cfg](https://github.com/scottlz0310/clp2cfg) | コピーした MCP 設定スニペットを正規化し、各 AI クライアントの設定へ安全に差分マージするデスクトップ GUI（Rust / egui） |
 | [md-peruse](https://github.com/scottlz0310/md-peruse) | Markdown を閲覧専用プレビューで表示する Windows 用ワークスペースビューワー |
+| [scoop-bucket](https://github.com/scottlz0310/scoop-bucket) | agent-statusline・clp2cfg を `scoop install` で導入できる個人 Scoop バケット（マニフェスト自動更新・週次健全性検査つき） |
 | [renovate-config](https://github.com/scottlz0310/renovate-config) | 全リポジトリ共通の Renovate プリセット |
 | [release-automate](https://github.com/scottlz0310/release-automate) | リリース作業を省力化する再利用可能ワークフロー |
 
