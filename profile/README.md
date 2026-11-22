@@ -26,43 +26,43 @@ flowchart TB
     app --- infra
 ```
 
-| リポジトリ | 役割 |
-|---|---|
-| [review-raven](https://github.com/scottlz0310/review-raven) | 実装側の窓口。レビュー依頼・再依頼、進捗と完了の取得、指摘への返信・resolve |
-| [thread-owl](https://github.com/scottlz0310/thread-owl) | レビュー側。対象の検証とレビュー、指摘・Verdict の投稿 |
-| [squirrel-notifier](https://github.com/scottlz0310/squirrel-notifier) | WinUI 3 製の通知ランチャー。MCP イベントを購読し、トーストからエージェントを起動 |
-| [mcp-resource-subscriber](https://github.com/scottlz0310/mcp-resource-subscriber) | MCP リソースの購読・read・tool 呼び出しを担う外部クライアント |
-| [mcp-gateway](https://github.com/scottlz0310/mcp-gateway) | MCP サーバー群への統合ゲートウェイ（OAuth 認証・ルーティング） |
-| [Mcp-Docker](https://github.com/scottlz0310/Mcp-Docker) | Docker で動かす MCP サーバー群と skill の管理・配布 |
+| リポジトリ                                                                        | 役割                                                                             |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [review-raven](https://github.com/scottlz0310/review-raven)                       | 実装側の窓口。レビュー依頼・再依頼、進捗と完了の取得、指摘への返信・resolve      |
+| [thread-owl](https://github.com/scottlz0310/thread-owl)                           | レビュー側。対象の検証とレビュー、指摘・Verdict の投稿                           |
+| [squirrel-notifier](https://github.com/scottlz0310/squirrel-notifier)             | WinUI 3 製の通知ランチャー。MCP イベントを購読し、トーストからエージェントを起動 |
+| [mcp-resource-subscriber](https://github.com/scottlz0310/mcp-resource-subscriber) | MCP リソースの購読・read・tool 呼び出しを担う外部クライアント                    |
+| [mcp-gateway](https://github.com/scottlz0310/mcp-gateway)                         | MCP サーバー群への統合ゲートウェイ（OAuth 認証・ルーティング）                   |
+| [Mcp-Docker](https://github.com/scottlz0310/Mcp-Docker)                           | Docker で動かす MCP サーバー群と skill の管理・配布                              |
 
 ## 🛠 開発環境ツール
 
-| リポジトリ | 概要 |
-|---|---|
-| [dsx](https://github.com/scottlz0310/dsx) | リポジトリ管理・システム更新・Bitwarden 連携を一元化するクロスプラットフォーム CLI（Go） |
-| [arbor](https://github.com/scottlz0310/arbor) | 複数のローカル git リポジトリを一元管理するデスクトップアプリ（Tauri v2） |
-| [agent-statusline](https://github.com/scottlz0310/agent-statusline) | Claude Code などの CLI エージェント向け高速ステータスライン（Rust） |
-| [clp2cfg](https://github.com/scottlz0310/clp2cfg) | コピーした MCP 設定スニペットを正規化し、各 AI クライアントの設定へ安全に差分マージするデスクトップ GUI（Rust / egui） |
-| [md-peruse](https://github.com/scottlz0310/md-peruse) | Markdown を閲覧専用プレビューで表示する Windows 用ワークスペースビューワー |
-| [scoop-bucket](https://github.com/scottlz0310/scoop-bucket) | agent-statusline・clp2cfg・card-template-studio を `scoop install` で導入できる個人 Scoop バケット（マニフェスト自動更新・週次健全性検査つき） |
-| [renovate-config](https://github.com/scottlz0310/renovate-config) | 全リポジトリ共通の Renovate プリセット |
-| [release-automate](https://github.com/scottlz0310/release-automate) | リリース作業を省力化する再利用可能ワークフロー |
-| [winget-observatory](https://github.com/scottlz0310/winget-observatory) | 巨大 OSS `microsoft/winget-pkgs` のレビュートリアージ・キュー消化速度を定点観測・分析するツールキット（TypeScript / Bun） |
+| リポジトリ                                                              | 概要                                                                                                                                           |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [dsx](https://github.com/scottlz0310/dsx)                               | リポジトリ管理・システム更新・Bitwarden 連携を一元化するクロスプラットフォーム CLI（Go）                                                       |
+| [arbor](https://github.com/scottlz0310/arbor)                           | 複数のローカル git リポジトリを一元管理するデスクトップアプリ（Tauri v2）                                                                      |
+| [agent-statusline](https://github.com/scottlz0310/agent-statusline)     | Claude Code などの CLI エージェント向け高速ステータスライン（Rust）                                                                            |
+| [clp2cfg](https://github.com/scottlz0310/clp2cfg)                       | コピーした MCP 設定スニペットを正規化し、各 AI クライアントの設定へ安全に差分マージするデスクトップ GUI（Rust / egui）                         |
+| [md-peruse](https://github.com/scottlz0310/md-peruse)                   | Markdown を閲覧専用プレビューで表示する Windows 用ワークスペースビューワー                                                                     |
+| [scoop-bucket](https://github.com/scottlz0310/scoop-bucket)             | agent-statusline・clp2cfg・card-template-studio を `scoop install` で導入できる個人 Scoop バケット（マニフェスト自動更新・週次健全性検査つき） |
+| [renovate-config](https://github.com/scottlz0310/renovate-config)       | 全リポジトリ共通の Renovate プリセット                                                                                                         |
+| [release-automate](https://github.com/scottlz0310/release-automate)     | リリース作業を省力化する再利用可能ワークフロー                                                                                                 |
+| [winget-observatory](https://github.com/scottlz0310/winget-observatory) | 巨大 OSS `microsoft/winget-pkgs` のレビュートリアージ・キュー消化速度を定点観測・分析するツールキット（TypeScript / Bun）                      |
 
 ## 🗺 写真・地図
 
-| リポジトリ | 概要 |
-|---|---|
+| リポジトリ                                                          | 概要                                                                    |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | [PhotoGeoExplorer](https://github.com/scottlz0310/PhotoGeoExplorer) | 写真の撮影地点を地図で確認する Windows アプリ（Microsoft Store 公開中） |
-| [photo-map-studio](https://github.com/scottlz0310/photo-map-studio) | EXIF GPS から撮影地点の地図画像を生成・一括出力（WinUI 3） |
+| [photo-map-studio](https://github.com/scottlz0310/photo-map-studio) | EXIF GPS から撮影地点の地図画像を生成・一括出力（WinUI 3）              |
 
 ## 🏗 業務ツール
 
-| リポジトリ | 概要 |
-|---|---|
-| [tacho-graph-studio](https://github.com/scottlz0310/tacho-graph-studio) | タコグラフ画像の前処理・角度補正・自動文字入れ（WinUI 3 / OpenCvSharp） |
+| リポジトリ                                                                  | 概要                                                                                                      |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [tacho-graph-studio](https://github.com/scottlz0310/tacho-graph-studio)     | タコグラフ画像の前処理・角度補正・自動文字入れ（WinUI 3 / OpenCvSharp）                                   |
 | [card-template-studio](https://github.com/scottlz0310/card-template-studio) | 現場編集長 CALSMASTER のアルバム作成ツール用カードテンプレート（`.TPL`）を編集する Windows アプリ（Rust） |
-| [cloud-migrator](https://github.com/scottlz0310/cloud-migrator) | クラウドストレージ間のファイル一括移行 CLI |
+| [cloud-migrator](https://github.com/scottlz0310/cloud-migrator)             | クラウドストレージ間のファイル一括移行 CLI                                                                |
 
 ## 📦 その他
 
