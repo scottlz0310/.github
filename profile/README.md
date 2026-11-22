@@ -44,9 +44,10 @@ flowchart TB
 | [agent-statusline](https://github.com/scottlz0310/agent-statusline) | Claude Code などの CLI エージェント向け高速ステータスライン（Rust） |
 | [clp2cfg](https://github.com/scottlz0310/clp2cfg) | コピーした MCP 設定スニペットを正規化し、各 AI クライアントの設定へ安全に差分マージするデスクトップ GUI（Rust / egui） |
 | [md-peruse](https://github.com/scottlz0310/md-peruse) | Markdown を閲覧専用プレビューで表示する Windows 用ワークスペースビューワー |
-| [scoop-bucket](https://github.com/scottlz0310/scoop-bucket) | agent-statusline・clp2cfg を `scoop install` で導入できる個人 Scoop バケット（マニフェスト自動更新・週次健全性検査つき） |
+| [scoop-bucket](https://github.com/scottlz0310/scoop-bucket) | agent-statusline・clp2cfg・card-template-studio を `scoop install` で導入できる個人 Scoop バケット（マニフェスト自動更新・週次健全性検査つき） |
 | [renovate-config](https://github.com/scottlz0310/renovate-config) | 全リポジトリ共通の Renovate プリセット |
 | [release-automate](https://github.com/scottlz0310/release-automate) | リリース作業を省力化する再利用可能ワークフロー |
+| [winget-observatory](https://github.com/scottlz0310/winget-observatory) | 巨大 OSS `microsoft/winget-pkgs` のレビュートリアージ・キュー消化速度を定点観測・分析するツールキット（TypeScript / Bun） |
 
 ## 🗺 写真・地図
 
@@ -60,6 +61,7 @@ flowchart TB
 | リポジトリ | 概要 |
 |---|---|
 | [tacho-graph-studio](https://github.com/scottlz0310/tacho-graph-studio) | タコグラフ画像の前処理・角度補正・自動文字入れ（WinUI 3 / OpenCvSharp） |
+| [card-template-studio](https://github.com/scottlz0310/card-template-studio) | 現場編集長 CALSMASTER のアルバム作成ツール用カードテンプレート（`.TPL`）を編集する Windows アプリ（Rust） |
 | [cloud-migrator](https://github.com/scottlz0310/cloud-migrator) | クラウドストレージ間のファイル一括移行 CLI |
 
 ## 📦 その他
